@@ -1,0 +1,57 @@
+body {
+  font-family: 'Roboto';
+  background-color: #ffffff;
+  color: #2e2f42;
+}
+
+ul {
+  list-style: none;
+}
+
+.logo {
+  text-transform: uppercase;
+  font-family: 'Raleway';
+  color: black;
+}
+
+.logo-text {
+  color: #4d5ae5;
+  text-transform: uppercase;
+  font-family: 'Raleway';
+}
+
+.header-link:hover {
+  color: #404bbf;
+}
+
+.address-phone {
+  color: #434455;
+}
+
+.address-mail {
+  color: #434455;
+}
+.address-mail:hover {
+  color: #404bbf;
+}
+
+/* Hero */
+.hero {
+  background-color: #2e2f42;
+}
+
+.hero-title {
+  color: #ffffff;
+}
+
+.hero-btn {
+  color: #ffffff;
+  background-color: #4d5ae5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.hero-btn:hover {
+  background: #404bbf;
+}
