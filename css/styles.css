@@ -88,17 +88,12 @@ ul {
 }
 
 /* Sections */
-.section-list {
-}
 
 .section-list-title {
   color: var(--color-title);
   font-size: 20px;
   line-height: 1.2;
   font-weight: 500;
-}
-
-.section-list-text {
 }
 
 .section-list-subject {
