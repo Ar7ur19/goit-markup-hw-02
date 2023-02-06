@@ -132,3 +132,29 @@ ul {
 .footer-logo-text {
   color: var(--color-brand);
 }
+
+/* Portfolio  */
+
+.logo-icon {
+  color: var(--color-brand);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.items-buttons {
+  background-color: #f4f4fd;
+  color: var(--color-brand);
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+}
+
+.items-buttons:hover {
+  color: #ffffff;
+  background-color: var(--color-pressed-state);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
