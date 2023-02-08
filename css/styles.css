@@ -45,7 +45,7 @@ ul {
   color: var(--color-pressed-state);
 }
 
-.address-phone {
+.address-link {
   color: var(--color-text);
   text-decoration: none;
   font-style: normal;
@@ -53,14 +53,7 @@ ul {
   line-height: 1.5;
 }
 
-.address-mail {
-  font-style: normal;
-  color: var(--color-text);
-  text-decoration: none;
-  letter-spacing: 0.02em;
-  line-height: 1.5;
-}
-.address-mail:hover {
+.address-link:hover {
   color: var(--color-pressed-state);
 }
 
@@ -94,7 +87,7 @@ ul {
 
 /* Sections */
 
-.section-list-title {
+.section-subtitle {
   color: var(--color-title);
   font-size: 20px;
   line-height: 1.2;
@@ -102,7 +95,12 @@ ul {
   letter-spacing: 0.02em;
 }
 
-.section-list-subject {
+.section text {
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+}
+
+.section-title {
   color: var(--color-title);
   font-size: 36px;
   line-height: 1.11;
@@ -122,6 +120,8 @@ ul {
 
 .footer-text {
   color: #e7e9fc;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
 }
 
 .footer-logo {
